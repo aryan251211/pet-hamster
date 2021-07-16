@@ -5,7 +5,7 @@ input.onGesture(Gesture.Shake, function () {
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     basic.showIcon(IconNames.Happy)
-    soundExpression.happy.playUntilDone()
+    soundExpression.giggle.playUntilDone()
     basic.showIcon(IconNames.Asleep)
 })
 basic.showIcon(IconNames.Asleep)
